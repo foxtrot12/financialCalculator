@@ -1,0 +1,74 @@
+
+
+/* General button style (reset) */
+.btn1 {
+	border: none;
+	font-family: inherit;
+	font-size: inherit;
+	color: inherit;
+	background: #226fbe;
+	cursor: pointer;
+	padding: 10px 30px;
+	
+	display: inline-block;
+	margin-top:15px;
+	margin-left: 30px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 700;
+	outline: none;
+	position: relative;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.btn1:after {
+	content: '';
+	position: absolute;
+	z-index: -1;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+/* Pseudo elements for icons */
+.btn1:before,
+.icon-heart:after,
+.icon-star:after,
+.icon-plus:after,
+.icon-file:before {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	position: relative;
+	-webkit-font-smoothing: antialiased;
+}
+
+
+
+
+.btn1-6:active {
+	top: 2px;
+}
+
+/* Button 6a */
+
+
+/* Button 6c */
+.btn1-6c {
+	border: 4px solid #226fbe;
+	border-radius: 60px;
+	
+}
+
+.btn1-6c:hover {
+	background: transparent;
+	color: #226fbe;
+}
+
+

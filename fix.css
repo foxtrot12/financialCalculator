@@ -1,0 +1,44 @@
+body{
+   background-image:white;
+   background-repeat:no-repeat;
+   background-size: cover;
+   font-family: sans-serif;
+   text-align: center;
+   padding:200;
+ 
+
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+  
+}
+.fixed form{
+  background-color: honeydew;
+}
+.form-fixed
+{
+	background:white;
+	color: black;
+	border:none;
+    outline:none;
+	margin-bottom: 11px;
+	font-size: 25px;
+	border-bottom:1px solid white;
+	
+	
+	
+}
+form .submit
+{
+       background: lightblue;
+       border-color: transparent;
+       color: black;
+       font-size: 20px;
+       font-weight: bold;
+       letter-spacing: 2px;
+       height: 50px;
+       margin-top: 20px;
+	   font-family: sans-serif;
+}
